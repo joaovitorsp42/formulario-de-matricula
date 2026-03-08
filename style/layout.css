@@ -1,0 +1,25 @@
+#app{
+  display: grid;
+  /* foi feita a soma das duas areas e utilizado regra de tres para descobrir a porcentagem (656 , 624) */
+  grid-template-columns: 51.25% 48.75%;
+
+  height: 100vh;
+  overflow: hidden;
+}
+main{
+  overflow: auto;
+  padding: 4rem;/* (64px / 16) */
+
+  .main-container{
+    max-width: 33rem;
+    margin-left: auto;
+  }
+}
+aside{
+  padding: 4rem;
+  background-color: var(--surface-secondary);
+
+  .aside-container{
+    max-width: 31rem;
+  }
+}
