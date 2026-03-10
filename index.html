@@ -19,7 +19,50 @@
         </div>
         <h1>Formulario de matrícula</h1>
         <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
-        
+        <Form method="post" enctype="multipart/form-data">
+          <fieldset class="child-info">
+            <legend>Informações da criança</legend>
+            <div class="input-wrapper">
+              <label for="fullname">Nome completo</label>
+              <input 
+              name="fullname"
+              id="fullname"
+              type="text" 
+              placeholder="digite o nome aqui ">
+            </div>
+            <div class="input-wrapper">
+              <label for="birth">Data de nascimento</label>
+              <input 
+              name="birth"
+              type="date" 
+              id="birth" 
+              lang="pt-br">
+            </div>
+            <div class="select-wrapper">
+              <label for="gender">sexo</label>
+              <select name="gender" id="gender">
+                <option value="female">Feminino</option>
+                <option value="male">Masculino</option>
+                <option value="na">Prefiro nao responder</option>
+              </select>
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informações médicas</label>
+                <textarea name="medical-info"              id="medical=info"
+                cols="30" rows="10"
+                placeholder="A criança possui algima condição medica que a escola deve estar ciente?"
+                >
+                </textarea>
+                <div class="droparea-wrapper">
+                  <input type="file" id="birth-file" name="birth-file">
+                  <img src="ASSETS/Icons/cloud-upload.svg" alt="">
+                  <p>clique aqui para <br>
+                  selecionar os arquivos</p>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </Form>
+    
       </div>
     </main>
     <aside>
