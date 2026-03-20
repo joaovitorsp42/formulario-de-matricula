@@ -22,17 +22,17 @@
   .checkbox-image{
     flex: 0 0 1.5rem;
     height: 1.5rem;
-    background-image: url(/ASSETS/Icons/checkbox-default.svg);
+    background-image: url(ASSETS/Icons/checkbox-default.svg);
   }
 
   &:hover, &:focus-within{
     .checkbox-image{
-      background-image: url(/ASSETS/Icons/checkbox-hover.svg);
+      background-image: url(ASSETS/Icons/checkbox-hover.svg);
     }
   }
   &:has(:checked){
     .checkbox-image{
-      background-image: url(/ASSETS/Icons/checkbox-checked.svg);
+      background-image: url(ASSETS/Icons/checkbox-checked.svg);
     }
   }
 }
