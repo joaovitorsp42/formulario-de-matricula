@@ -39,13 +39,13 @@ label + .radio-wrapper{
     border: 1px solid var(--stroke-highlight);
 
     & .radio-image{
-      background-image: url(/ASSETS/Icons/radio-hover.svg);
+      background-image: url(../../ASSETS/Icons/radio-hover.svg);
     }
     &:has(:checked){
       border: 1px solid var(--stroke-highlight);
 
       & .radio-image{
-      background-image: url(/ASSETS/Icons/radio-checked.svg);
+      background-image: url(../../ASSETS/Icons/radio-checked.svg);
       }
     }
   }
