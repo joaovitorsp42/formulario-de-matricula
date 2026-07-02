@@ -87,3 +87,8 @@ input{
     display: none;
   }
 }
+@media (width < 80em){
+  .adress .flex{
+    display: grid;
+  }
+}

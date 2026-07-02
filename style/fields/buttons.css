@@ -26,3 +26,8 @@ button{
     }
   }
 }
+@media (width < 80em){
+  button.btn-secondary{
+    margin-left: initial;
+  }
+}
